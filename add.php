@@ -8,6 +8,7 @@ $email = $title = $ingredients = '';
 // Create errors array for storing errors
 	$errors = array('email' => '', 'title' => '', 'ingredients' => '');
 
+	// if the submit button was clicked and a POST request was sent
 	if(isset($_POST['submit'])){
 		
 		// check if email field is empty
